@@ -3,13 +3,11 @@ package com.example.kspich.analpenetration
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.MediaStore
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import com.example.kspich.analpenetration.adapters.AndreyAdapter
 import com.example.kspich.analpenetration.adapters.HistoryAdapter
 import com.example.kspich.analpenetration.adapters.InfoAdapter
-import kotlinx.android.synthetic.main.activity_main.*
 
 class Main : AppCompatActivity() {
 
