@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class Main : AppCompatActivity() {
 
-    val AndreyList: MutableList<String> = mutableListOf("я потом увидел", "что должны быть дата и время", "но заебался там и так все просто", "не срал 10 часов")
+    val AndreyList: MutableList<String> = mutableListOf("я потом увидел", "что должны быть дата и время", "но заебался там и так все просто", "и кнопка ничего не делает")
 
     val PicsList: MutableList<Int> = mutableListOf(R.drawable.pic1,R.drawable.pic1,R.drawable.pic1)
 
