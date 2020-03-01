@@ -10,39 +10,50 @@
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="22"
-        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="3"
         android:id="@+id/AndreyPhoto"
+        android:scrollbars="horizontal"
         >
 
     </android.support.v7.widget.RecyclerView>
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="2"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:orientation="vertical"
         android:id="@+id/InfoView"
         >
 
     </android.support.v7.widget.RecyclerView>
 
-    <android.support.v7.widget.RecyclerView
+    <TextView
+        android:id="@+id/historyViewTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="2"
+        android:layout_weight="0.5"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/secondary_text_light_nodisable"
+        android:textSize="18sp"
+        android:text="История выходов на маршруты" />
+
+    <android.support.v7.widget.RecyclerView
         android:id="@+id/HistoryView"
-        >
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:orientation="vertical">
 
     </android.support.v7.widget.RecyclerView>
 
     <Button
         android:id="@+id/button"
-        android:layout_gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:layout_weight="2"
-        android:text="оформить вкид"/>
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="оформить вкид" />
 
 
 </LinearLayout>

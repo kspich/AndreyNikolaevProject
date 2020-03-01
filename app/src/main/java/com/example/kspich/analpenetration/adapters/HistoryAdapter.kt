@@ -3,11 +3,9 @@ package com.example.kspich.analpenetration.adapters
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
-import android.view.View.OnClickListener
 import android.view.ViewGroup
 import android.widget.TextView
 import com.example.kspich.analpenetration.R
-import com.example.kspich.analpenetration.R.layout.view_history
 
 class HistoryAdapter(val values: MutableList<String>) : RecyclerView.Adapter<HistoryAdapter.ViewHolder>(){
 
@@ -29,6 +27,7 @@ class HistoryAdapter(val values: MutableList<String>) : RecyclerView.Adapter<His
     class ViewHolder(text: View) : RecyclerView.ViewHolder(text)
     {
         var textView: TextView? = null
+
         init {
             textView = text.findViewById(R.id.historyText)
         }
